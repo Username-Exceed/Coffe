@@ -8,7 +8,7 @@ function main(){
 
         if(contador == 1){
             $('.nav-content').animate({
-                bottom:'-265px'
+                bottom:'-266px'
             });
             contador = 0;
         } else {
