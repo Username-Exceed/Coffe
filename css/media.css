@@ -1,0 +1,330 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.contenedor-padre{
+    width: 360px;
+    margin: 0 auto;
+}
+
+/*Banner y menu de la pagina*/
+
+.banner img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+.navbar{
+	background-color: black;
+	position: fixed;
+	width: 360px;
+    z-index: 1;
+	margin: 0;
+	height: 46px;
+}
+
+.logo{
+	padding: 4px 0px 2px 46px;
+	border-bottom: 1px solid #414141;
+	display: flex;
+}
+
+.logo .logo-1{
+	padding-right: 149px;
+}
+
+.btn-menu{
+	display: inherit;
+}
+
+.nav-content {
+	text-align: center;
+    display: grid;
+    width: 360px;
+    background-color:black;
+	position: absolute;
+	z-index: -1;
+	bottom: 423px;
+}
+
+.nav-content {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.nav-content a {
+	color:white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 13px 5px 13px;
+	border-bottom: 1px solid #414141;
+}
+
+.nav-content :hover{
+	background-color: #ff793f;
+}
+
+/*Primer contenido del index*/
+
+.contenido-1{
+	background-color: #F2C694;
+	position: relative;
+	height: 478px;
+}
+
+
+.img-1 img{
+    padding: 50px 41px 30px 42px;
+    width: 277px;
+	height: auto;
+}
+
+.texto{
+	width:534px;
+	text-align: center;
+	font-size: 23px;
+	position: absolute;
+	top: 315px;
+    left: -79px;
+}
+
+.text1, .text2, .text3{
+	margin:0;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+.text1, .text2{
+	color:#844735;
+}
+
+.text3{
+	color: #F0736D;
+}
+
+.contenido-1 p{
+	margin: 0;
+}
+
+.btn-menu p{
+	width: 130px;
+	text-align: center;
+	padding: 7px 2px;
+	border-radius: 50px;
+	border:2px solid #844735;
+	position: absolute;
+	top: 417px;
+	left: 116px;
+	color: #F0736D;
+	font-size: 17px;
+}
+
+.btn-menu :hover{
+background-color: #844735;	
+}
+
+/*Segunda Sección del index*/
+
+.img-2 img{
+    padding: 3px 41px 10px 42px;
+    width: 277px;
+    height: auto;
+}
+
+h1{
+	font-size: 16px;
+	padding-bottom: 12px;
+}
+
+.texto2{
+	width: 293px;
+	padding: 0px 1px 14px 0px;
+	margin: auto;
+	font-size: 10px;
+	text-align: center;
+}
+
+/*Tercera Sección del index*/
+
+.contenido-3{
+	position: relative;
+	display: flex;
+}
+
+.contenido-3 img{
+    width: 360px;
+    height: 236px;
+}
+
+.texto3{
+    height: auto;
+	position: absolute;
+	color: white;
+	margin:0 auto;
+	text-align: center;
+	/*background-color:rgba(0, 0, 0, 0.4);*/ 
+	padding: 46px 0px 0px 53px;	
+}
+
+.texto3 p{
+	width: 256px;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.texto3 .rinconsito{
+	padding:12px 0px 33px 0px;
+	font-size: 16px;
+}
+
+.btn-ordenar p{
+	width: 98px;
+	font-size: 12px;
+	margin: 0 auto;
+	padding: 6px 5px;
+	border: 2px solid white;
+	border-radius: 50px;
+}
+
+
+.btn-ordenar :hover{
+	background-color: rgb(102, 65, 17);
+}
+
+.texto3 a {
+	text-decoration: none;
+	color: white;
+}
+
+.img-3{
+    width: 360px;
+    display: flex;
+}
+
+.dark-cafe{
+    background-color:rgba(0, 0, 0, 0.4);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
+/*Cuarta Sección del index*/
+.contenido-4{
+	width: 100%;
+    background-color: #935524;
+    display: flex;
+}
+
+.img-vectors{
+padding-top: 10px;
+}
+
+.img-vectors img{
+    width: 57px;
+    height: auto;
+}
+
+.contenido-4 .img4{
+	padding-left: 27px;
+}
+
+.contenido-4 .img5, .img6, .img7{
+	padding-left: 20px;
+}
+
+/*Footer*/
+.into-footer{
+	width: 360px;
+	margin: 0 auto;
+	color: white;
+	background-color: #414141;
+	display: flow-root
+}
+
+.info-footer{
+	width: 309px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.info-footer h2{
+	font-family: 'Roboto', sans-serif;	
+}
+
+.enlaces h4{
+	padding-left: 65px;
+	display: none;
+}
+
+.enlaces, .enlaces-2{
+	display: none;
+}
+
+.footer a{
+	text-decoration: none;
+	color: white;
+}
+
+.footer li {
+	text-align: center;
+	list-style: none;
+}
+
+.enlaces li{
+	padding-bottom: 15px;
+	display: none;
+}
+
+.enlaces-2 li{
+	padding: 15px 0px 10px 30px;
+	display: none;	
+}
+
+.redes-sociales{
+	width: 213px;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.redes-sociales img{
+	width: 19px;
+}
+
+.redes-sociales h4{
+	display: none;
+}
+
+.facebook, .twitter, .instagram, .youtube{
+	padding: 0px 10px 0px 0px;
+}
+
+.creditos{
+	width: 360px;
+	background-color: #1A1A1A;
+	color:white;
+	padding: 15px 0px;
+	text-align: center;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+}
+
+/*
