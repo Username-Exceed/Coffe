@@ -243,7 +243,7 @@ padding-top: 17px;
 .informacion form{
 	text-align:center;
 	padding:12px;
-	background: url(../img/Contactos/bn.jpg);
+	background-image: url(../img/contactos/bn.jpg);
 	background-size: cover;
 }
 
